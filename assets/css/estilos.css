@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family:'segoe ui',Tahoma,Verdana, Geneva, Tahoma, sans-serif ;
+}
+body{
+    background-color: rgb(190, 88, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+h2{
+    color: rgb(210, 30, 69);
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 25px;
+    border-bottom: 2px solid azure;
+    padding-bottom:10px;
+}
+.grupo-input{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+}
+
+.gupo-button{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btn-primary{
+    color: rgb(243, 239, 239);
+    border : 1px solid rgb(0, 0, 0);  
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgba(10, 115, 201, 0.534);
+    cursor: pointer;
+}
+.btn-secondary{
+    color: rgb(255, 253, 253);
+    border : 1px solid rgb(0, 0, 0);  
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgba(255, 30, 0, 0.822);
+    cursor: pointer;
+}
+.Contenedor-Formulario{
+    background-color: rgb(255, 255, 255);
+    padding: 30px ;
+    border-radius:10px ;
+    box-shadow:04px 12px rgba(143, 30, 15, 0.822) ;
+    width:400px ;
+    max-width: 500px;
+}
+button[type= "submit"]{
+    background-color: rgb(12, 55, 196);
+    color: aliceblue;
+}

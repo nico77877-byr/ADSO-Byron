@@ -1,0 +1,60 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>CLUB ADSO</title> 
+        <link rel="stylesheet" href="../assets/css/estilos.css">
+   </head>
+    <body>
+    
+        <div class="Contenedor-Formulario">
+            <h2>Registro Asociados</h2>
+            <form id="FormRegistro" action="" method="POST">
+                <div>
+                    <label>Ingresar Documento</label>
+                    <input id="documento" type="number" placeholder="ejemplo: 1056892456">
+                </div>
+                <div class = "grupo-input">
+                    <label>Ingresar Nombre: </label>
+                    <input type="text" id="nombre" required placeholder="Ingrese nombres completos">
+                </div>
+                <div class = "grupo-input">
+                    <label>Ingresar Apellidos: </label>
+                    <input type="text" id="apellidos" required placeholder="Ingrese apellidos completos">
+                </div>
+                <div class = "grupo-input">
+                    <label>Fecha de Nacimiento: </label>
+                    <input type="date" id="fechanacimiento" requeried placeholder="ejemplo 12/05/2026">
+                </div>
+                <div class = "grupo-input">
+                    <label>Direccion de residencia: </label>
+                    <input type="text" id="direccion" requeried placeholder="ejemplo cra 24 # 12-125">
+                </div>
+                <div class = "grupo-input">
+                    <label>Telefono: </label>
+                    <input type="number" id="telefono" requeried placeholder="ejemplo 3115648972">
+                </div>
+                <div class = "grupo-input">
+                    <label>Email: </label>
+                    <input type="text" id="correo" requeried placeholder="ejemplo andres@gmail.com">
+                </div>
+                <div>
+                    <label>Ciudad: </label>
+                    <input type="text" id="ciudad" requeried placeholder="ejemplo: Ingrese Ciudad">
+                </div>
+                <div>
+                    <label>Genero: </label>
+                    <input type="radio" id="femenino" values= "femenino">
+                    <label>FEMENINO</label>
+                    <input type="radio" id="femenino" values= "masculino">
+                    <label>MASCULINO</label>
+                    <input type="radio" id="femenino" values= "otro">
+                    <label>OTRO</label>
+
+                </div>
+            <div class="gupo-button">
+            <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+            <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
+
+        </div>
+    </body>
+</html>
